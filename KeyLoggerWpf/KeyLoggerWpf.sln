@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyLoggerWpf", "KeyLoggerWp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyLogger.Core", "KeyLogger.Core\KeyLogger.Core.csproj", "{4B166626-CFC0-4FBD-A771-B5A0068A931B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{9C01BCDB-1BEA-4B29-B856-4ECDC1D8878F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{4B166626-CFC0-4FBD-A771-B5A0068A931B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B166626-CFC0-4FBD-A771-B5A0068A931B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B166626-CFC0-4FBD-A771-B5A0068A931B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C01BCDB-1BEA-4B29-B856-4ECDC1D8878F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C01BCDB-1BEA-4B29-B856-4ECDC1D8878F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C01BCDB-1BEA-4B29-B856-4ECDC1D8878F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C01BCDB-1BEA-4B29-B856-4ECDC1D8878F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
