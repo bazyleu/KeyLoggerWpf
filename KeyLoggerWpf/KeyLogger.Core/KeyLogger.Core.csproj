@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IKeyChecker.cs" />
+    <Compile Include="Abstract\IKeyLogger.cs" />
     <Compile Include="KeyLogger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WinApiWrapper.cs" />
