@@ -42,7 +42,9 @@
   <ItemGroup>
     <Compile Include="Abstract\IKeyChecker.cs" />
     <Compile Include="Abstract\IKeyLogger.cs" />
-    <Compile Include="KeyLogger.cs" />
+    <Compile Include="Abstract\ILogSaver.cs" />
+    <Compile Include="KeyCheker.cs" />
+    <Compile Include="KeyLoggerInstance.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WinApiWrapper.cs" />
   </ItemGroup>
