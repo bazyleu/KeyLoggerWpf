@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using KeyLogger.Core;
+using KeyLoggerWpf.ViewModels;
 
 namespace KeyLoggerWpf
 {
@@ -23,6 +25,7 @@ namespace KeyLoggerWpf
         public MainWindow()
         {
             InitializeComponent();
+            DataContext=new KeyLoggerViewModel(new KeyLoggerInstance(new KeyCheker(), new LogSaver()));
         }
     }
 }

@@ -3,6 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button Content="Start" HorizontalAlignment="Left" Margin="67,102,0,0" VerticalAlignment="Top" Width="86" Height="24" Command="{Binding StartCommand}"/>
+        <Button Content="Stop" HorizontalAlignment="Left" Margin="193,102,0,0" VerticalAlignment="Top" Width="86" Height="24" Command="{Binding StopCommand}"/>
+
     </Grid>
 </Window>
