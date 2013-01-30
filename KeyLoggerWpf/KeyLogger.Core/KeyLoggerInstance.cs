@@ -16,9 +16,9 @@ namespace KeyLogger.Core
         private readonly IKeyChecker keyChecker;
         private readonly ILogSaver logSaver;
 
-        public KeyLoggerInstance(IKeyChecker keyChecker, ILogSaver logSaver, 
-            long refreshInterval = 10, long saveInterval = 60)
-        {
+        public KeyLoggerInstance(IKeyChecker keyChecker, ILogSaver logSaver,
+            long refreshInterval = 10, long saveInterval = 10000) 
+        {                                                  
             saving = false;
             logBuffer=new StringBuilder();
             reseveBugger=new StringBuilder();
